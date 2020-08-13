@@ -1,0 +1,106 @@
+body {
+    background: rgba(163, 154, 154, 0.459);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "bark";
+    src: url(font/bark/bark-qxm1-webfont.eot);
+    src: url(font/bark/bark-qxm1-webfont.woff), url(font/bark/bark-qxm1-webfont.woff2), url(font/bark/bark-qxm1-webfont.svg);
+}
+   
+/* HEADER */
+header{
+    background:white;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 70px;
+    height: 40px;
+       
+}
+
+header .logo a{
+    background-color: tomato;
+    background-image: url(image/woodslice.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 90px;
+    position: relative;
+    top: -35px;
+    text-indent: -9999999px;
+    width: 100px; 
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+header nav ul a:hover {
+    text-decoration-line: overline ;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'bark', Arial, sans-serif;
+}
+
+/* FEATURES */
+
+.features {
+    background-color: white;
+    color: gray;
+    font-size: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.features figure img {   
+    border:white;
+    border-radius: 50%;
+    box-shadow: rgb(209, 200, 200) 1px 1px 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.features figcaption {
+    margin: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    background: rgba(206, 128, 10, 0.89);
+    color:rgb(5, 59, 48);
+    font-size: 12px;
+    padding: 20px;
+    text-align: center; 
+}
+
+
+div {
+    background: pink;
+    display: block;
+    width: 100px;
+    margin: auto
+}
